@@ -10,6 +10,7 @@ https://www.mkyong.com/tutorials/spring-batch-tutorial/
 https://riptutorial.com/es/spring-batch
 https://www.concretepage.com/spring-5/spring-batch-csv-database
 https://www.onlinetutorialspoint.com/spring-boot/spring-boot-batch-example-csv-to-database.html
+https://www.adictosaltrabajo.com/2016/03/14/aprende-spring-batch-con-ejemplos/
 
 Pagina para creacion de Servicio Web REST con Spring Boot:
 http://sinbugs.com/como-crear-un-microservicio-o-servicio-web-rest-con-spring-boot-1/
