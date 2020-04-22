@@ -11,7 +11,7 @@ Ext.create('Ext.form.Panel', {
         xtype: 'textfield',
         name: 'prueba',
         fieldLabel: 'Prueba',
-        regex : /^[\u00F1A-Za-z _]*[\u00F1A-Za-z][\u00F1A-Za-z _]*$/,
+        regex : /^[\u00F1A-Za-z _]*$/,
         regexText : 'Cadena invalida'// requires value to be a valid email address format
     }]
 });
