@@ -1,0 +1,17 @@
+- PRUEBAS VARIAS -
+
+_Validar un TextField con regex y regexText:
+
+Ext.create('Ext.form.Panel', {
+    title: 'Contact Info',
+    width: 300,
+    bodyPadding: 10,
+    renderTo: Ext.getBody(),
+    items: [{
+        xtype: 'textfield',
+        name: 'prueba',
+        fieldLabel: 'Prueba',
+        regex : /^[\u00F1A-Za-z _]*[\u00F1A-Za-z][\u00F1A-Za-z _]*$/,
+        regexText : 'Cadena invalida'// requires value to be a valid email address format
+    }]
+});
