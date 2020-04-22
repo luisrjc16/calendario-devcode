@@ -1,6 +1,6 @@
 - PRUEBAS VARIAS -
 
-_Validar un TextField con regex y regexText:
+_Validar caracteres ingresados en TextField con regex y regexText:
 
 Ext.create('Ext.form.Panel', {
     title: 'Contact Info',
@@ -11,7 +11,22 @@ Ext.create('Ext.form.Panel', {
         xtype: 'textfield',
         name: 'prueba',
         fieldLabel: 'Prueba',
-        regex : /^[\u00F1A-Za-z _]*$/,
-        regexText : 'Cadena invalida'// requires value to be a valid email address format
+        regex : /^[\u00F1A-Za-z\s]*$/,
+        regexText : 'Cadena invalida'
+    }]
+});
+
+_Validar ingreso solo de letras en un TextField con maskRe:
+
+Ext.create('Ext.form.Panel', {
+    title: 'Contact Info',
+    width: 300,
+    bodyPadding: 10,
+    renderTo: Ext.getBody(),
+    items: [{
+        xtype: 'textfield',
+        name: 'pruebad',
+        fieldLabel: 'PruebaD',
+        maskRe : /^[\u00F1A-Za-z _]*$/
     }]
 });
