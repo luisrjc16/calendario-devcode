@@ -1,0 +1,2 @@
+__Comando para arrancar Shell interactivo para un contenedor
+docker exec -u root -it container_id bash
