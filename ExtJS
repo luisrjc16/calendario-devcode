@@ -48,3 +48,6 @@ Ext.create('Ext.form.Panel', {
         regexText: 'Texto inválido'
     },]
 });
+
+_Reordenar la columnas en un Grid
+https://fiddle.sencha.com/#fiddle/2r1&view/editor
