@@ -1,0 +1,8 @@
+https://santanderglobaltech.com/en/java-programming-java-stream-for-dummies/
+  cars.stream().noneMatch(car -> car.getColor().equals("Grey") && car.getBrand().equals("Volvo"));
+  
+  private boolean applyCriteria(Car car) {
+    return car.getColor().equals("Grey") && car.getBrand().equals("Volvo");
+  }
+  
+  cars.stream().noneMatch(car -> applyCriteria(car));
