@@ -20,3 +20,8 @@ http://sinbugs.com/como-crear-un-microservicio-o-servicio-web-rest-con-spring-bo
 
 Pagina para creacion de Servicio Web REST con Spring Boot:
 https://www.nigmacode.com/java/Crear-API-REST-con-Spring
+
+
+Axis 2
+Pagina 1: https://axis.apache.org/axis2/java/core/docs/quickstartguide.html#clients
+Pagina 2: https://axis.apache.org/axis2/java/core/docs/installationguide.html
